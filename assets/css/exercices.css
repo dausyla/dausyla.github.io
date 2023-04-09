@@ -1,0 +1,171 @@
+/*  ============= WEB BROWSER RESETS ============ */
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+html {
+  height: 100%;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  scroll-behavior: smooth;
+  scroll-padding-top: 20px;
+}
+
+body {
+  max-width: 1920px;
+  line-height: 1.5;
+  margin-left: auto;
+  margin-right: auto;
+  min-height: 100vh;
+  text-rendering: optimizeSpeed;
+}
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+/* ================= ENDS ================ */
+
+/* Desktops */
+@media (min-width: 768px) {
+}
+
+/* Mobiles */
+@media (max-width: 767px) {
+}
+
+p {
+  text-align: center;
+  font-size: 20px;
+  margin-bottom: 8px;
+  margin-top: 16px;
+}
+
+nav {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 1rem;
+  background-color: var(--sky-500);
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  margin: 0 1rem;
+}
+
+nav a {
+  text-decoration: none;
+  color: var(--black-000);
+  font-size: 1.2rem;
+}
+
+#hero-1 header.theme-dark .badge {
+  background-color: var(--black-000);
+}
+#hero-1 header.theme-dark .badge {
+  background-color: var(--trend-700);
+}
+#hero-1 header.theme-dark .badge {
+  background-color: var(--trend-900);
+}
+#hero-1 header.theme-dark .badge {
+  background-color: var(--trend-900);
+}
+
+#hero-1 header.theme-dark {
+  background-color: var(--black-000);
+}
+#hero-1 header.theme-dark .badge {
+  background-color: var(--black-000);
+}
+#hero-1 header.theme-dark .badge {
+  color: var(--white-000);
+}
+#hero-1 header.theme-dark .container-btn a.btn:nth-child(1):link,
+#hero-1 header.theme-dark .container-btn a.btn:nth-child(1):visited {
+  color: var(--white-000);
+}
+#hero-1 header.theme-dark .container-btn a.btn:nth-child(1):link,
+#hero-1 header.theme-dark .container-btn a.btn:nth-child(1):visited {
+  border-color: var(--white-000);
+}
+#hero-1 header.theme-dark .container-btn a.btn:nth-child(1):focus,
+#hero-1 header.theme-dark .container-btn a.btn:nth-child(1):hover,
+#hero-1 header.theme-dark .container-btn a.btn:nth-child(1):active {
+  background-color: var(--black-000);
+}
+#hero-1 header.theme-dark .container-btn a.btn:nth-child(1):focus,
+#hero-1 header.theme-dark .container-btn a.btn:nth-child(1):hover,
+#hero-1 header.theme-dark .container-btn a.btn:nth-child(1):active {
+  color: var(--sky-500);
+}
+#hero-1 header.theme-dark .container-btn a.btn:nth-child(1):focus,
+#hero-1 header.theme-dark .container-btn a.btn:nth-child(1):hover,
+#hero-1 header.theme-dark .container-btn a.btn:nth-child(1):active {
+  border-color: var(--sky-500);
+}
+#hero-1 header.theme-dark .container-btn a.btn:nth-child(2):link,
+#hero-1 header.theme-dark .container-btn a.btn:nth-child(2):visited {
+  color: var(--black-000);
+}
+#hero-1 header.theme-dark .container-btn a.btn:nth-child(2):link,
+#hero-1 header.theme-dark .container-btn a.btn:nth-child(2):visited {
+  background-color: var(--sky-500);
+}
+#hero-1 header.theme-dark .container-btn a.btn:nth-child(2):link,
+#hero-1 header.theme-dark .container-btn a.btn:nth-child(2):visited {
+  border-color: var(--sky-500);
+}
+#hero-1 header.theme-dark h1 {
+  color: var(--sky-500);
+}
+#hero-1 header.theme-dark .container-btn a.btn:nth-child(2):focus,
+#hero-1 header.theme-dark .container-btn a.btn:nth-child(2):hover,
+#hero-1 header.theme-dark .container-btn a.btn:nth-child(2):active {
+  color: var(--black-000);
+}
+#hero-1 header.theme-dark .container-btn a.btn:nth-child(2):focus,
+#hero-1 header.theme-dark .container-btn a.btn:nth-child(2):hover,
+#hero-1 header.theme-dark .container-btn a.btn:nth-child(2):active {
+  background-color: var(--sky-300);
+}
+#hero-1 header.theme-dark .container-btn a.btn:nth-child(2):focus,
+#hero-1 header.theme-dark .container-btn a.btn:nth-child(2):hover,
+#hero-1 header.theme-dark .container-btn a.btn:nth-child(2):active {
+  border-color: var(--sky-300);
+}
+
+#hero-1 header .badge {
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 7px;
+  text-decoration-color: var(--sky-500);
+  text-decoration-style: wavy;
+}
+
+#hero-1 h1 span {
+  color: var(--white-000);
+}
+
+/*Animation----------------------------------*/

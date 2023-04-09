@@ -1,1 +1,2 @@
-# dausyla.github.io
+# dausyla
+Web design journey | Gabriel DAURE
