@@ -204,11 +204,11 @@ body {
 /*-Contact-*/
 
 .container-contact-form {
-  background-color: var(--white-000);
+  background-color: #f5d8e9;
 }
 
 #contact-form {
-  background-color: var(--white-000);
+  background-color: #f5d8e9;
 }
 
 #contact-form h2 {
